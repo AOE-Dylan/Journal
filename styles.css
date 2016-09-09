@@ -1,26 +1,64 @@
 header{
-  background-color: #10ADED;
-  padding: 10px 10px 10px 450px;
+  background-color: #FFE800;
+  padding: 10px 10px 10px 275px;
   border: 20px solid #DAA520;
+  box-shadow: 10px 10px 5px #19197B;
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-right: 30%;
+  margin-bottom: 20px;
+}
+body{
+  background-color: #4141D3;
 }
 
 .aside{
   background-color: #10ADED;
   color: #0000ff;
+  background-color: #FFE800;
+  padding: 5px 5px 5px 5px;
+  color: #12129D;
+  box-shadow: 10px 10px 5px #19197B;
+  float: left;
+  border-radius: 10px;
 }
 
 #MyFirstEntry{
-  background-color: #FB1;
+  background-color: #33ccff;
+  padding: 5px 5px 5px 5px;
+  margin-left: 195px;
+  margin-bottom: 10px;
+  border: 10px solid #DAA520;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #19197B;
 }
 
 #UXandUI{
-  background-color: #FB1;
+  background-color: #33ccff;
+  padding: 5px 5px 5px 5px;
+  margin-left: 195px;
+  margin-bottom: 10px;
+  border: 10px solid #DAA520;
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px #19197B;
 }
 
 #second{
-  background-color: #10ADED;
+  background-color: #33ccff;
+  padding: 5px 5px 5px 5px;
+  margin-left: 195px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 10px solid #DAA520;
+  box-shadow: 10px 10px 5px #19197B;
 }
 
 #third{
-  background-color: #10ADED;
+  background-color: #33ccff;
+  padding: 5px 5px 5px 5px;
+  margin-left: 195px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  border: 10px solid #DAA520;
+  box-shadow: 10px 10px 5px #19197B;
 }
