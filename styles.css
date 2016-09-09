@@ -1,15 +1,19 @@
 header{
   background-color: #FFE800;
-  padding: 10px 10px 10px 275px;
   border: 20px solid #DAA520;
+  padding: 5px 5px 5px 140px;
   box-shadow: 10px 10px 5px #19197B;
   border-radius: 25px;
-  margin-left: 20%;
-  margin-right: 30%;
+  margin-left: 30%;
+  margin-right: 20%;
   margin-bottom: 20px;
+}
+img{
+  margin: auto;
 }
 body{
   background-color: #4141D3;
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
 }
 
 .aside{
@@ -25,6 +29,7 @@ body{
 
 #MyFirstEntry{
   background-color: #33ccff;
+  font-family: "AR BLANCA", Times, serif;
   padding: 5px 5px 5px 5px;
   margin-left: 195px;
   margin-bottom: 10px;
@@ -35,6 +40,7 @@ body{
 
 #UXandUI{
   background-color: #33ccff;
+  font-family: "AR BLANCA", Times, serif;
   padding: 5px 5px 5px 5px;
   margin-left: 195px;
   margin-bottom: 10px;
@@ -61,4 +67,36 @@ body{
   border-radius: 25px;
   border: 10px solid #DAA520;
   box-shadow: 10px 10px 5px #19197B;
+}
+.animate {
+    color: yellow;
+    float:right;
+    font-family: "AR BLANCA", Times, serif;
+    font-size: 40px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #19197B;
+    margin-left: 35%;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 400px;
+    border: 5px solid #DAA520;
+    -webkit-animation: animate_bg 7s;
+    animation: animate_bg 7s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate_bg {
+    0%   {background:#0C0CF6;}
+    33%  {background:#AA2CCD;}
+    66% {background:#2A33A7;}
+    100%{background:#0C0CF6;}
+}
+
+@-webkit-keyframes animate_bg {
+    0%   {background:#0C0CF6;}
+    33%  {background:#AA2CCD;}
+    66% {background:#2A33A7;}
+    100%{background:#0C0CF6;}
 }
