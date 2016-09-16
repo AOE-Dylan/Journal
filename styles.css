@@ -7,13 +7,14 @@ header{
   margin-left: 30%;
   margin-right: 20%;
   margin-bottom: 20px;
+  vertical-align: all;
 }
 img{
   margin: auto;
 }
 body{
   background-color: #4141D3;
-  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+  
 }
 
 .aside{
@@ -24,6 +25,7 @@ body{
   color: #12129D;
   box-shadow: 10px 10px 5px #19197B;
   float: left;
+  display: inline;
   border-radius: 10px;
 }
 
@@ -69,6 +71,7 @@ body{
   box-shadow: 10px 10px 5px #19197B;
 }
 .animate {
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
     color: yellow;
     float:right;
     font-family: "AR BLANCA", Times, serif;
