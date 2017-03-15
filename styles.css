@@ -30,7 +30,7 @@ body{
   border-radius: 10px;
 }
 
-#Titles{
+.Titles{
   background-color: #33ccff;
   font-family: "AR BLANCA", Times, serif;
   padding: 5px 5px 5px 5px;
@@ -41,7 +41,7 @@ body{
   box-shadow: 10px 10px 5px #19197B;
 }
 
-#Entries{
+.Entries{
   background-color: #33ccff;
   padding: 5px 5px 5px 5px;
   margin-left: 195px;
