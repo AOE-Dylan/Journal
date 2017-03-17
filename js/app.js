@@ -47,7 +47,7 @@ var firstJsonEntry = [ {
 
 var simplifiedJSON = [
   {
-    "journalEntry" : "10",
+    "journalEntry" : "1",
     "date" : "8-15-16",
     "title" : "My First Entry",
     "content" : 
@@ -60,3 +60,20 @@ var simplifiedJSON = [
 ];
 
 console.log(simplifiedJSON);
+
+/*
+
+Create a function named showALL
+Pass one parameter (data)
+
+inside the function
+Inside a variable:
+Iterate through data
+for each object create elements
+  create parent div#entry1
+  create a h1 header
+  append/add inner.HTML object.title to each one.
+  Repeat for every value
+  append all elements + values to the parent div
+
+*/
